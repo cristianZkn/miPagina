@@ -1,17 +1,64 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bienvenido</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #4facfe, #00f2fe);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+
+        .container {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 40px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            background: white;
+            color: #4facfe;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 25px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #4facfe;
+            color: white;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+    </style>
 </head>
 <body>
-    <h1> wena cabros </h1>
-    <p> como hace tu mamma? mh mhm hm </p>
+
+    <div class="container">
+        <h1>¡Bienvenido!</h1>
+        <p>Gracias por visitar nuestro sitio web</p>
+        <button class="btn" onclick="alert('¡Vamos a comenzar!')">Comenzar</button>
+    </div>
+
 </body>
 </html>
-
-
-
-
